@@ -31,7 +31,7 @@ const Details = (props) => {
   ]);
 
   const changeStarColorHandler = (event) => {
-    var state = parseInt(event.target.id);
+    var state = Number(event.target.id);
     var starTemp = [];
     for (let i = 0; i < starColor.length; i++) {
       i <= state ? starTemp.push("colorStar") : starTemp.push("nocolorStar");

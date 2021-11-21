@@ -1,0 +1,29 @@
+.homeHeader {
+    background-color:#ff9999;
+    padding: 8px;
+    text-align: center;
+    font-size: 1rem;
+}
+.flex-container {
+    display: flex;
+}
+.releaseGrid {
+    width: 76%;
+    margin: 16px;
+}
+.filter {
+    width: 24%;
+    margin: 16px;
+}
+.cardStyle {
+    text-align: center;
+}
+#releasedImage{
+    cursor: pointer;
+}
+.gridTitle{
+    width: 100%;
+}
+.gridImage {
+    width: 100%;
+}
